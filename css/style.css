@@ -24,7 +24,7 @@ body {
 }
 
 #nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #nav-bar {
@@ -38,17 +38,25 @@ body {
   /* float: right; */
 }
 
+.product-container {
+  display: flex;
+  width: 100%;
+}
+
 .products {
   height: 300px;
   background: white;
   margin: 10px;
+  flex-grow: 1;
+  border: 1px solid rgb(239 10 10 / 70%);
+  border-radius: 20px;
 }
 
 input {
   display: block;
   width: 100%;
   margin-bottom: 10px;
-}  
+}
 
 h1 {
   margin-bottom: 40px;
@@ -58,5 +66,5 @@ form {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-  height: 180px; 
+  height: 180px;
 }
