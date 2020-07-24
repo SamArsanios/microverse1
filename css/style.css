@@ -90,6 +90,7 @@ input {
     padding: 10px;
     font-size: 1rem;
     border-radius: 2px;
+    border: none;
 }
 
 input[type="submit"] {
