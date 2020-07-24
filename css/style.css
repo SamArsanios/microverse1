@@ -14,7 +14,7 @@ body {
 }
 
 #header-img {
-    width: 60px;
+    height: 100%;
     float: left;
     margin-left: 80px;
 }
@@ -90,6 +90,7 @@ input {
     padding: 10px;
     font-size: 1rem;
     border-radius: 2px;
+    border: none;
 }
 
 input[type="submit"] {
@@ -109,7 +110,18 @@ input[type="submit"] {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 999px) {
+
+    #nav-bar {
+      height: 100px;
+    }
+
+    #nav li {
+      font-size: 2.2rem;
+  }
+  
+
+
     input {
         padding: 20px;
         font-size: 1.7rem;
@@ -117,9 +129,6 @@ input[type="submit"] {
     input[type="submit"] {
         padding: 10px;
         font-size: 25px;
-    }
-    * {
-        font-size: 3.5 rem;
     }
 }
 
