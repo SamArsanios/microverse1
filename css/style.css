@@ -1,0 +1,13 @@
+* {
+  /* width: 100%; */
+  background-color: blueviolet;
+}
+
+#header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  position: fixed;
+}
