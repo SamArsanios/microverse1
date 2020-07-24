@@ -10,4 +10,16 @@
 
 #nav-bar {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: bisque;
+  z-index: 9999;
+}
+
+div {
+  height: 700px;
+  background: white;
+  margin: 10px;
 }
